@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+
+<head>
+    <meta  charset="utf-8">
+    <meta name="author" content="DJAWOU Koffi Mario && DETAIL Matthieu , Université de Bourgogne">
+    <meta name="copyright" content="JEU de QUILLE">
+    <title>projet Info3B (S. I.), année 2022-2023</title>
+    <script type="text/javascript" charset="UTF-8" src="../../libs/three/three.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="../../libs/other/ThreeBSP.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="../../libs/three/controls/TrackballControls.js"></script>
+    <script type="text/javascript" src="../../libs/util/dat.gui.js"></script>
+    <script type="text/javascript" src="../../libs/util/Stats.js"></script>
+    <script type="text/javascript" src="../../libs/util/util.js"></script>
+    <script type="text/javascript" src="../js/CameraLumiere.js"></script>
+    <script type="text/javascript" src="../js/js1.js"></script>
+    <script type="text/javascript" src="../js/Bezier.js"></script>
+    <script type="text/javascript" src="../js/GeometrieUtile.js"></script>
+    <script type="text/javascript" src="../js/ModeleMateriaux.js"></script>
+    <script type="text/javascript" src="../js/Quille.js"></script>
+    <script type="text/javascript" src="../js/fonction_projectile.js"></script>
+    <script type="text/javascript" src="../js/game.js"></script>
+    <link rel="stylesheet" href="../css/css1.css">
+</head>
+
+
+<body onload="init()">
+    <div id="webgl"></div>
+    <form  action="mailto:toto@wanadoo.fr" method="post">
+      <fieldset>
+        
+        <div> 
+
+          <table id="Score" align="center" >
+          <tr>
+            <th class="Titre">Score</th>
+            <th class="Titre">1er Lancer</th>
+            <th class="Titre">2ème Lancer</th>
+          </tr>
+          <tr>
+            <td class="Titre">Equipe Bleue</td>
+            <td><input id="PtsN1"  /></td>
+            <td><input id="PtsN2"/></td>
+
+          </tr>
+          <tr>
+            <td class="Titre">Equipe Rouge</td>
+            <td><input id="PtsB1"  /></td>
+            <td><input id="PtsB2"/></td>
+
+          </tr>
+          </table>
+
+         
+        </div>
+      </fieldset>
+    </form>
+
+</body>
+
+</html>

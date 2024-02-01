@@ -1,0 +1,88 @@
+
+
+
+
+.expo{
+ vertical-align:super;
+}
+
+body {
+ background-color:#AAAAAA;
+ 
+/*margin: 0.5;
+    overflow: hidden;*/
+}
+
+#webgl{
+ /*margin-left: 0.5cm;
+ width:95%;
+ height:95%;*/
+ background-color: gray;
+}
+
+#TableauCamera{
+ text-align:center;
+ border : solid red 2px;
+ background-color:green;
+ border-collapse:collapse;
+}
+
+#TableauCamera td, #TableauCamera th{
+ /*text-align:center;*/
+ border : solid red 2px;
+ /*background-color:green;
+ border-collapse:collapse;*/
+}
+
+input[type='number']{
+ width:5cm;
+ background-color:yellow;
+ color:blue;
+}
+input[type='button']{
+ margin-left:1cm;
+ margin-top:0.2cm;
+ width:5cm;
+ background-color:#99FF99;
+ color:red;
+}
+#divBouton{
+ float:right;
+}
+#controleRepere{
+ float:left;
+ margin-right:1cm;
+ border : solid 3px #FFFF00;
+}
+fieldset{
+ border : none;
+ color : white;
+ background-color:#AAAAAA;
+ font-weight:900;
+
+ background-image:url("../telechargement.png");
+}
+#Score{
+ background-color: #F6A032;
+ text-align:center;
+ border-collapse:collapse;
+ border:  groove rgba(189, 184, 182, 0.158);
+}
+
+#Score td, #Score th{
+ border : solid black 2px;
+}
+
+#PtsN1,#PtsN2{
+    border : solid blue 2px;
+    color : red;
+    background-color: blue ;
+}
+#PtsB1,#PtsB2{
+    border : solid red 2px;
+    color:blue ;
+    background-color : red;
+}
+.Titre{
+    color : red;
+}
